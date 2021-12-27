@@ -11,11 +11,20 @@ header{
     padding: 1rem;
     padding-left: 5rem;
     padding-right: 5rem;
+
+    
 }
 
 header li{
     list-style-type: none;
     justify-self: left;
+    text-decoration: none;
+    color: white;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
 }
 header ul{
     display: flex;
@@ -60,4 +69,56 @@ header ul{
 .section1 img{
     height: 20rem;
     width: 50%;
+}
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+    background-color: rgb(179, 179, 179);
+    color: black;
+}
+.section2 h3{
+    font-size: 30px;
+
+ 
+
+}
+.cardContainer{
+    display: flex;
+    gap: 200px;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.card img{
+    width: 300px;
+    height: 100%px;
+    border: #3c87ff solid;
+    border-radius: 5px;
+    
+
+}
+.card p{
+    justify-content: center;
+}
+.section3 {
+    background-color: black;
+    display: flex;
+    color: white;
+    padding:200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section3 p{
+    color: grey;
 }
