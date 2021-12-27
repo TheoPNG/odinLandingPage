@@ -122,3 +122,6 @@ header ul{
 .section3 p{
     color: grey;
 }
+.section4{
+    display: flex;
+}
